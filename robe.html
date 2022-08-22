@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="robe.css">
+</head>
+
+<body>
+    <div class="contenair">
+        <div class="card" id="item1">
+            <img src="robe1.jpg" alt="">
+            <div class="title">robe1</div>
+            <div><label>SIZE:</label>
+                <select>
+                <option>36</option>
+                <option>38</option>
+                <option>40</option>
+                <option>42</option>
+            </select>
+            </div>
+            <button onclick="addToCart(item1)">add to cart</button>
+        </div>
+        <div class="card" id="item2">
+            <img src="rob2.jpg" alt="">
+            <div class="title">robe2</div>
+            <div><label>SIZE:</label>
+                <select>
+                <option>36</option>
+                <option>38</option>
+                <option>40</option>
+                <option>42</option>
+            </select>
+            </div>
+            <button onclick="addToCart(item2)">add to cart</button>
+        </div>
+    </div>
+    <div class="cart" id="cart">
+        <div class="title">Cart</div>
+        <hr>
+        <div id="title"></div>
+    </div>
+    <script src="robe.js"></script>
+</body>
+
+</html>
